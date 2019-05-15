@@ -1,0 +1,139 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+p{
+  color: white;
+  text-align: center;
+}
+
+}
+#rad1{
+  width: 100vw;
+  height: 5vh;
+}
+.top{
+  width: 6.15vw;
+  height: 5vh;
+  margin: 0.1vh;
+  background-color: black;
+  float: left;
+}
+#rad2{
+  width: 100vw;
+  height: 9vh;
+}
+.r2{
+  background-color: black;
+  margin: 0.1vh;
+  width:6.8vw;
+  height: 9vh;
+  float: left;
+}
+#Backspace{
+  width: 10.2vw;
+  margin: 0.1vh;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  text-align: center;
+
+}
+#rad3{
+  width: 100vw;
+  height: 9vh;
+}
+
+.r3{
+  width: 7.038vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+}
+
+#rad4{
+  width: 100vw;
+  height: 10vh;
+}
+
+.r4{
+  width: 7.372vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+}
+
+#CapsLock{
+  width:10.2vw;
+  margin: 0.1vh;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  text-align: center;
+}
+#Enter{
+  width: 7.1vw;
+  margin: 0.1vh;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  text-align: center;
+}
+
+#rad5{
+  width: 100vw;
+  height: 10vh;
+}
+.r5{
+  width: 7.2vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+}
+#ShiftRight{
+  width: 12.25vw;
+  height: 9vh;
+  text-align: center;
+  background-color: black;
+  float: left;
+  margin: 0.1vh;
+}
+#rad6{
+  width: 100vw;
+  height: 10vh;
+}
+.r6{
+  width: 7.2vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+}
+#MetaLeft{
+  width: 7.2vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+  background-image: url(wind.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Space{
+  width: 37.25vw;
+  height: 9vh;
+  float: left;
+  background-color: black;
+  margin: 0.1vh;
+  text-align: center;
+}
