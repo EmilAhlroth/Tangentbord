@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
   <head>
     <link href="tan.css" rel="stylesheet">
     <title>
@@ -6,6 +7,8 @@
     </title>
   </head>
   <body>
+
+     <!-- Skriver alla rader med tangenter -->
     <div id="rad1">
         <div class = "top" id="Escape">
             <p> Esc </p>
@@ -260,14 +263,17 @@
 
       </div>
 
+     <!-- Javascript som gör så att tangenterna lyser när de trycks -->
       <script>
 
       document.addEventListener('keydown', function(event) {
-      console.log(event.code);
-      document.getElementById(event.code).style.backgroundColor = "Orange";
-      setTimeout(function(){
-        document.getElementById(event.code).style.backgroundColor = "black"; }, 100);
-      });
+        console.log(event.code);
+        document.getElementById(event.code).style.backgroundColor = "Orange";
+
+        document.addEventListener('keyup', function() {
+          document.getElementById(event.code).style.backgroundColor = "black";
+        })
+      })
 
       </script>
 
